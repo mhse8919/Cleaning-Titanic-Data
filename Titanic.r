@@ -45,3 +45,7 @@ head(titanic, 4) #check first 4 row of new data titanic
 
 #safe a new data in csv 
 write.csv(titanic, file = 'titanic_clean.csv')
+
+addmagins(table(titanic$pclass, tatanic$sex), 2)
+aggregate(cbind(age, fare)~pclass+sex, titanic, mean)
+ddply(titanic, .(pclass, sex, fsurvived), summarise, count = length(fsurvived) 
